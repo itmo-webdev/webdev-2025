@@ -21,3 +21,7 @@
 
 */.DS_Store
 .DS_Store
+# lesson-2 ignores
+lesson-2/.env
+lesson-2/cache.log
+lesson-2/database/data/
