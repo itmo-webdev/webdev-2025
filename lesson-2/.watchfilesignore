@@ -1,0 +1,3 @@
+database/data/
+database/data/*
+database/data/pgdata/
