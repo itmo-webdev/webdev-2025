@@ -20,4 +20,10 @@
 1-lesson/venv/
 
 */.DS_Store
-.DS_Store
+.DS_Store5-lesson/email_worker.log
+5-lesson/email_worker.log
+5-lesson/dump.rdb
+.venv/
+5-lesson/email_worker.log
+5-lesson/dump.rdb
+.venv/
