@@ -18,6 +18,8 @@
 */.env.test.local
 1-lesson/fastapi/venv/
 1-lesson/venv/
+*/*/esdata/
+*/*/redis_data/
 
 */.DS_Store
 .DS_Store
