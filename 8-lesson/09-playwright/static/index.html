@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>FastAPI + Playwright demo</title>
+</head>
+<body>
+  <h1>Demo</h1>
+
+  <label>
+    Имя:
+    <input id="name" value="Alice" />
+  </label>
+  <button id="btn">Сказать привет</button>
+
+  <p id="result"></p>
+
+  <script>
+    const nameInput = document.getElementById("name");
+    const btn = document.getElementById("btn");
+    const result = document.getElementById("result");
+
+    btn.addEventListener("click", async () => {
+      result.textContent = "Loading...";
+      const name = encodeURIComponent(nameInput.value);
+      const resp = await fetch(`/api/hello?name=${name}`);
+      const data = await resp.json();
+      result.textContent = data.message;
+    });
+  </script>
+</body>
+</html>
+

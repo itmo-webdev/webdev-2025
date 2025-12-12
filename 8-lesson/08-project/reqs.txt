@@ -1,0 +1,12 @@
+fastapi
+pydantic-settings
+uvicorn
+asyncpg
+sqlalchemy[asyncio]
+pytest
+pytest-asyncio<0.23
+alembic
+httpx
+polyfactory
+asgi_lifespan
+pydantic[email]
